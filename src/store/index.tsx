@@ -11,10 +11,7 @@ const RootStore = types
   })
   .actions((self) => ({
     addActivity(activityTitle: string) {
-      const nextNumber =
-        self.activities.reduce((prev, el) => {
-          return el.id > prev.id ? el : prev;
-        }, self.activities[0]).id + 1;
+      const nextNumber = self.activities.length;
 
       self.activities.push({
         title: activityTitle,
@@ -25,6 +22,12 @@ const RootStore = types
     updateOrder(from: number, to: number) {
       const shuffled = am(self.activities, from, to);
       self.activities = cast(shuffled);
+    },
+    removeActivity(id: number) {
+      const newActivities = [
+        ...self.activities.filter((activity) => activity.id !== id),
+      ];
+      self.activities = cast(newActivities);
     },
   }))
   .views((self) => ({

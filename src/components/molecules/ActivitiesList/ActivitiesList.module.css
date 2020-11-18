@@ -1,4 +1,10 @@
 .activitiesList {
-  max-height: 400px;
   overflow: auto;
+  flex-grow: 1;
+}
+
+@media (min-width: 480px) {
+  .activitiesList {
+    height: 400px;
+  }
 }

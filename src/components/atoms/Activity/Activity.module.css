@@ -18,3 +18,10 @@
 .wrapper:nth-child(odd) {
   background-color: #f7f7f7;
 }
+
+.removeIcon {
+  margin: 0px 12px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}

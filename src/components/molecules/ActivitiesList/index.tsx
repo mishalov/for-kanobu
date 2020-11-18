@@ -47,6 +47,7 @@ const ActivitiesList: React.FC<IActivitiesListProps> = (props) => {
                       ?.status
                   )}
                   toggleDone={activity.toggleDone}
+                  removeItem={store.removeActivity}
                 />
               ))}
             </div>
