@@ -3,10 +3,14 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import Main from "./components/organisms/Main";
 import reportWebVitals from "./reportWebVitals";
+import { Provider } from "mobx-react";
+import Store from "./store";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Main />
+    <Provider store={Store}>
+      <Main />
+    </Provider>
   </React.StrictMode>,
   document.getElementById("root")
 );

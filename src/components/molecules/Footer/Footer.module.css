@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  align-items: flex-end;
+  flex-grow: 1;
+  padding: 32px;
+}
+
+.input {
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.button {
+  margin-left: 18px;
+}
+
+.label {
+  margin-bottom: 8px;
+}
+
+.unvalidated {
+  border-color: red;
+}

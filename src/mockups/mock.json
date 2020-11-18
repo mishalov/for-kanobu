@@ -1,7 +1,7 @@
 [
-  { "title": "Купи молоко", "order": 1, "status": true },
-  { "title": "Подпиши петицию", "order": 2, "status": true },
-  { "title": "Ешь", "order": 3, "status": true },
-  { "title": "Пей", "order": 4, "status": true },
-  { "title": "Жуй орбит", "order": 5, "status": true }
+  { "title": "1", "status": false, "id": 1 },
+  { "title": "2", "status": true, "id": 2 },
+  { "title": "3", "status": false, "id": 3 },
+  { "title": "4", "status": false, "id": 4 },
+  { "title": "5", "status": false, "id": 5 }
 ]
