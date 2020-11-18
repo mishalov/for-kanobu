@@ -34,6 +34,7 @@ const Activity: React.FC<IActivityProps> = (props) => {
           {...provided.draggableProps}
           {...provided.dragHandleProps}
           className={wrapper}
+          title="Тяните для сортировки"
         >
           <div className={activity}>
             <div className={titleStyle}>{title}</div>
