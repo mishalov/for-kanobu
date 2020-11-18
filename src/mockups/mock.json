@@ -1,0 +1,7 @@
+[
+  { "title": "Купи молоко", "order": 1, "status": true },
+  { "title": "Подпиши петицию", "order": 2, "status": true },
+  { "title": "Ешь", "order": 3, "status": true },
+  { "title": "Пей", "order": 4, "status": true },
+  { "title": "Жуй орбит", "order": 5, "status": true }
+]
